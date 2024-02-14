@@ -8,6 +8,10 @@ And second image is pokemon detail, you can click any item on list to show.
 Click button at top will store/remove the pokemon.
 Click pokemon in evolution session will show another pokemon related current display.
 
+![](https://i.imgur.com/qvJ6kgw.png)
+![](https://i.imgur.com/kNK9FrD.png)
+![](https://i.imgur.com/7uQmx12.png)
+
 ### Installation
 
 1. Update `Bundle Identifier` and `Team` at `Project Setting` > `Signing & Capabilities`.
