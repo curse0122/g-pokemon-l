@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct MainApp: App {
+    
+    @ObservedObject var manager = PokemonDataManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    manager.setup()
+                }
+                .environmentObject(manager)
         }
     }
 }
